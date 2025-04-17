@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
@@ -13,8 +12,7 @@ const Footer = () => {
               <span className="text-2xl font-bold text-gradient">Ofceab Studio</span>
             </a>
             <p className="text-gray-300 mb-6 max-w-md">
-              We create innovative digital solutions that help businesses thrive
-              in today's competitive landscape.
+              Nous créons des solutions numériques innovantes qui aident les entreprises à prospérer dans l'environnement concurrentiel d'aujourd'hui.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-ofceab-dark rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-ofceab-blue transition-colors">
@@ -36,10 +34,10 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Services</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">Mobile Development</a>
+                <a href="#services" className="text-gray-400 hover:text-white transition-colors">Développement Mobile</a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">Web Development</a>
+                <a href="#services" className="text-gray-400 hover:text-white transition-colors">Développement Web</a>
               </li>
               <li>
                 <a href="#services" className="text-gray-400 hover:text-white transition-colors">Backend & APIs</a>
@@ -78,11 +76,11 @@ const Footer = () => {
         
         <div className="border-t border-ofceab-gray-dark/30 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {year} Ofceab Studio. All rights reserved.
+            &copy; {year} Ofceab Studio. Tous droits réservés.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Politique de Confidentialité</a>
+            <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Conditions d'Utilisation</a>
           </div>
         </div>
       </div>

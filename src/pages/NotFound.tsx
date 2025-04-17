@@ -25,12 +25,12 @@ const NotFound = () => {
       />
       <div className="text-center glass-card p-12 rounded-xl">
         <h1 className="text-6xl font-bold mb-4 text-gradient">404</h1>
-        <p className="text-xl text-gray-300 mb-6">Oops! Page not found</p>
+        <p className="text-xl text-gray-300 mb-6">Oups ! Page non trouvée</p>
         <a 
           href="/" 
           className="px-5 py-3 rounded-md bg-gradient-ofceab hover:opacity-90 transition-opacity font-medium inline-block"
         >
-          Return to Home
+          Retour à l'Accueil
         </a>
       </div>
     </div>

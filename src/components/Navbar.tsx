@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -24,10 +23,10 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { label: "Home", href: "#home" },
+    { label: "Accueil", href: "#home" },
     { label: "Services", href: "#services" },
-    { label: "Why Us", href: "#why-us" },
-    { label: "Projects", href: "#projects" },
+    { label: "Pourquoi Nous", href: "#why-us" },
+    { label: "Projets", href: "#projects" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -91,7 +90,7 @@ const Navbar = () => {
                 className="px-5 py-2 rounded-md bg-gradient-ofceab hover:opacity-90 transition-opacity font-medium text-center w-full"
                 onClick={() => setIsOpen(false)}
               >
-                Get in Touch
+                Nous Contacter
               </a>
             </div>
           </nav>

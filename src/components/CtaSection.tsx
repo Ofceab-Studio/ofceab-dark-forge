@@ -9,10 +9,10 @@ const CtaSection = () => {
         <div className="glass-card rounded-xl p-8 md:p-12 animate-fade-in">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to <span className="text-gradient">Transform</span> Your Digital Presence?
+              Prêt à <span className="text-gradient">Transformer</span> Votre Présence Numérique ?
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Let's discuss how Ofceab Studio can help bring your ideas to life with cutting-edge technology solutions.
+              Discutons de la façon dont Ofceab Studio peut vous aider à concrétiser vos idées avec des solutions technologiques de pointe.
             </p>
           </div>
           
@@ -20,13 +20,13 @@ const CtaSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
-                  Name
+                  Nom
                 </label>
                 <input
                   type="text"
                   id="name"
                   className="w-full px-4 py-3 bg-ofceab-dark border border-ofceab-gray-dark/50 rounded-md focus:outline-none focus:ring-2 focus:ring-ofceab-blue/50"
-                  placeholder="Your name"
+                  placeholder="Votre nom"
                 />
               </div>
               <div>
@@ -37,20 +37,20 @@ const CtaSection = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 bg-ofceab-dark border border-ofceab-gray-dark/50 rounded-md focus:outline-none focus:ring-2 focus:ring-ofceab-blue/50"
-                  placeholder="Your email"
+                  placeholder="Votre email"
                 />
               </div>
             </div>
             
             <div>
               <label htmlFor="subject" className="block text-sm font-medium mb-2">
-                Subject
+                Sujet
               </label>
               <input
                 type="text"
                 id="subject"
                 className="w-full px-4 py-3 bg-ofceab-dark border border-ofceab-gray-dark/50 rounded-md focus:outline-none focus:ring-2 focus:ring-ofceab-blue/50"
-                placeholder="Project type or inquiry"
+                placeholder="Type de projet ou demande"
               />
             </div>
             
@@ -62,7 +62,7 @@ const CtaSection = () => {
                 id="message"
                 rows={5}
                 className="w-full px-4 py-3 bg-ofceab-dark border border-ofceab-gray-dark/50 rounded-md focus:outline-none focus:ring-2 focus:ring-ofceab-blue/50 resize-none"
-                placeholder="Tell us about your project or question"
+                placeholder="Parlez-nous de votre projet ou de votre question"
               ></textarea>
             </div>
             
@@ -71,7 +71,7 @@ const CtaSection = () => {
                 type="submit"
                 className="px-8 py-3 rounded-md bg-gradient-ofceab hover:opacity-90 transition-opacity font-medium text-lg"
               >
-                Send Message
+                Envoyer le Message
               </button>
             </div>
           </form>

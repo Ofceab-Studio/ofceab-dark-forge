@@ -1,4 +1,3 @@
-
 import { Star } from "lucide-react";
 
 interface ProjectCardProps {
@@ -63,56 +62,54 @@ const Testimonial = ({ quote, author, position, company, rating, delay }: Testim
 };
 
 const ProjectsSection = () => {
-  // Placeholder projects
   const projects = [
     {
       imageSrc: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-      title: "Fitness Mobile App",
-      category: "Mobile Development",
+      title: "Application Mobile de Fitness",
+      category: "Développement Mobile",
       delay: 100
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
-      title: "E-commerce Platform",
-      category: "Web Development",
+      title: "Plateforme E-commerce",
+      category: "Développement Web",
       delay: 200
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1520333789090-1afc82db536a?auto=format&fit=crop&w=800&q=80",
-      title: "Cloud Management Dashboard",
+      title: "Tableau de Bord Cloud",
       category: "DevOps & Cloud",
       delay: 300
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80",
-      title: "IoT Data Platform",
+      title: "Plateforme IoT",
       category: "Backend & APIs",
       delay: 400
     }
   ];
 
-  // Placeholder testimonials
   const testimonials = [
     {
-      quote: "Ofceab Studio delivered our mobile app on time and exceeded our expectations. Their attention to detail and user experience design is impressive.",
+      quote: "Ofceab Studio a livré notre application mobile dans les délais et a dépassé nos attentes. Leur attention aux détails et à l'expérience utilisateur est impressionnante.",
       author: "Alex Thompson",
-      position: "CTO",
+      position: "Directeur Technique",
       company: "HealthTech Inc.",
       rating: 5,
       delay: 100
     },
     {
-      quote: "The team at Ofceab Studio built a robust backend system that scaled seamlessly as our user base grew. Their technical expertise is unmatched.",
+      quote: "L'équipe d'Ofceab Studio a construit un système backend robuste qui s'est adapté parfaitement à la croissance de notre base d'utilisateurs. Leur expertise technique est inégalée.",
       author: "Sarah Chen",
-      position: "Product Manager",
+      position: "Chef de Produit",
       company: "GrowFast Solutions",
       rating: 5,
       delay: 200
     },
     {
-      quote: "Working with Ofceab Studio transformed our business. Their cloud infrastructure work saved us time and money while improving performance.",
+      quote: "Travailler avec Ofceab Studio a transformé notre entreprise. Leur travail sur l'infrastructure cloud nous a fait gagner du temps et de l'argent tout en améliorant les performances.",
       author: "Jordan Miller",
-      position: "CEO",
+      position: "PDG",
       company: "Innovative Retail",
       rating: 5,
       delay: 300
@@ -131,10 +128,10 @@ const ProjectsSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="text-gradient">Our Work</span>
+            <span className="text-gradient">Nos Réalisations</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            We've helped businesses of all sizes transform their digital presence with innovative solutions.
+            Nous avons aidé des entreprises de toutes tailles à transformer leur présence numérique avec des solutions innovantes.
           </p>
         </div>
         
@@ -152,10 +149,10 @@ const ProjectsSection = () => {
         
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="text-gradient">Client Testimonials</span>
+            <span className="text-gradient">Témoignages Clients</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our clients say about working with us.
+            Ne vous fiez pas qu'à notre parole. Voici ce que nos clients disent de leur collaboration avec nous.
           </p>
         </div>
         
