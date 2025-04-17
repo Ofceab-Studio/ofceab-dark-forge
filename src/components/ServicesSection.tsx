@@ -38,29 +38,29 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <Smartphone size={28} />,
-      title: "Mobile App Development",
-      description: "Intuitive, high-performance apps for iOS and Android that engage users and deliver seamless experiences.",
+      title: "Développement d'Applications Mobiles",
+      description: "Applications intuitives et performantes pour iOS et Android qui engagent les utilisateurs et offrent une expérience fluide.",
       technologies: ["Flutter", "iOS", "Android", "React Native"],
       delay: 100
     },
     {
       icon: <Globe size={28} />,
-      title: "Modern Web Development",
-      description: "Responsive, fast-loading websites and web applications with stunning UIs and intuitive UX.",
+      title: "Développement Web Moderne",
+      description: "Sites web et applications web réactifs, rapides avec des interfaces utilisateur élégantes et une expérience intuitive.",
       technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
       delay: 200
     },
     {
       icon: <Server size={28} />,
-      title: "Custom Backends & APIs",
-      description: "Scalable, robust backend systems and APIs that power your applications with seamless data flow.",
+      title: "Backend & APIs sur Mesure",
+      description: "Systèmes backend et APIs évolutifs et robustes qui alimentent vos applications avec un flux de données fluide.",
       technologies: ["Node.js", "Express", "Firebase", "MongoDB"],
       delay: 300
     },
     {
       icon: <Cloud size={28} />,
-      title: "Cloud Infrastructure & DevOps",
-      description: "Efficient, secure cloud solutions with CI/CD pipelines for continuous deployment and scaling.",
+      title: "Infrastructure Cloud & DevOps",
+      description: "Solutions cloud efficaces et sécurisées avec des pipelines CI/CD pour un déploiement et une mise à l'échelle continus.",
       technologies: ["AWS", "Docker", "Kubernetes", "CI/CD"],
       delay: 400
     }
@@ -78,10 +78,10 @@ const ServicesSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="text-gradient">Our Services</span>
+            <span className="text-gradient">Nos Services</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            We deliver end-to-end technology solutions that help businesses innovate, scale, and thrive in the digital landscape.
+            Nous fournissons des solutions technologiques complètes qui aident les entreprises à innover, évoluer et prospérer dans le paysage numérique.
           </p>
         </div>
         

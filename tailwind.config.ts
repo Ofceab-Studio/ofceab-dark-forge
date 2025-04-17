@@ -66,8 +66,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				ofceab: {
-					blue: '#1EAEDB',
-					teal: '#0FA0CE',
+					blue: '#0046BE',
+					green: '#00BE46',
 					cyan: '#33C3F0',
 					dark: '#121212',
 					'dark-accent': '#1E1E1E',
@@ -134,7 +134,7 @@ export default {
 				'pulse-slow': 'pulse-slow 3s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'gradient-ofceab': 'linear-gradient(90deg, #1EAEDB 0%, #0FA0CE 100%)',
+				'gradient-ofceab': 'linear-gradient(90deg, #0046BE 0%, #00BE46 100%)',
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
 			}
