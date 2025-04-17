@@ -1,4 +1,3 @@
-
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
@@ -49,18 +48,26 @@ const HeroSection = () => {
         <ArrowDown size={24} />
       </a>
       
-      {/* Tech stack indicators */}
       <div className="absolute bottom-20 left-0 right-0">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center gap-4 md:gap-8 opacity-60">
-            <div className="text-sm md:text-base text-ofceab-gray-light">Flutter</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">React</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">Next.js</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">Node.js</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">Firebase</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">AWS</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">Docker</div>
-            <div className="text-sm md:text-base text-ofceab-gray-light">Kubernetes</div>
+          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 md:gap-x-8">
+            {[
+              "Flutter",
+              "React",
+              "Next.js",
+              "Node.js",
+              "Firebase",
+              "AWS",
+              "Docker",
+              "Kubernetes"
+            ].map((tech) => (
+              <div
+                key={tech}
+                className="px-4 py-1.5 rounded-full bg-ofceab-dark-accent/50 backdrop-blur-sm border border-white/5 text-sm md:text-base text-ofceab-gray-light hover:text-white hover:border-white/20 transition-all duration-300"
+              >
+                {tech}
+              </div>
+            ))}
           </div>
         </div>
       </div>
