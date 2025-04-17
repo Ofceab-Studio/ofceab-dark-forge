@@ -1,3 +1,4 @@
+
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
@@ -42,13 +43,13 @@ const HeroSection = () => {
       
       <a 
         href="#services" 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-ofceab-blue hover:text-ofceab-green transition-colors animate-pulse-slow"
+        className="absolute bottom-32 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-ofceab-blue hover:text-ofceab-green transition-colors animate-pulse-slow z-10"
       >
         <span className="text-sm mb-2">Défiler vers le bas</span>
         <ArrowDown size={24} />
       </a>
       
-      <div className="absolute bottom-20 left-0 right-0">
+      <div className="absolute bottom-10 left-0 right-0">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 md:gap-x-8">
             {[
@@ -76,3 +77,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
